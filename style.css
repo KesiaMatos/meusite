@@ -1,0 +1,56 @@
+body {
+  background-color: #000;
+  text-align: center;        /* centraliza o texto */
+  white-space: normal;       /* permite quebra natural das linhas */
+  overflow-wrap: break-word; /* garante quebra correta em telas pequenas */
+  word-break: keep-all;      /* mantém as palavras inteiras */
+  font-size: 1em;
+  color: #333;
+  margin: 0 auto 20px;
+  max-width: 350px;          /* evita o texto ficar muito largo em telas grandes */
+}
+
+
+.container {
+  max-width: 400px;
+  margin: 50px auto;
+  background: #fff;
+  padding: 30px;
+  border-radius: 25px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.profile-img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.links a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin: 12px 0;
+  padding: 12px;
+  background:#C7A9E6;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 12px;
+  transition: 0.3s ease;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.links a:hover {
+  background: #e2a997;
+  transform: scale(1.03);
+}
+
+footer {
+  margin-top: 25px;
+  font-size: 13px;
+  color: #aaa;
+}
